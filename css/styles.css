@@ -56,7 +56,6 @@ figure, blockquote, dl, dd {
 }
 
 body {
-    height: 100dvh;
     font-family: var(--ff-poppins);
     font-weight: var(--fw-400);
     color: var(--clr-primary-white);
@@ -192,6 +191,11 @@ button {
         background: linear-gradient(90deg, var(--clr-primary-Red), var(--clr-primary-Red)), url(/images/bg-intro-desktop.png);
     }
 
+    main {
+        display: grid;
+        place-items: center;
+    }
+
     .container {
         gap: 2rem;
         flex-direction: row;
@@ -199,7 +203,6 @@ button {
         justify-content: center;
         width: 80%;
         margin-inline: auto;
-        padding: 2rem 0;
     }
 
     .container > * {
