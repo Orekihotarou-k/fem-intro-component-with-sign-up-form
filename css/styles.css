@@ -186,6 +186,11 @@ button {
 
 
 @media (min-width: 40em) {
+
+    body {
+        background: linear-gradient(90deg, var(--clr-primary-Red), var(--clr-primary-Red)), url(/images/bg-intro-desktop.png);
+    }
+
     .container {
         gap: 2rem;
         flex-direction: row;
@@ -209,7 +214,9 @@ button {
         margin: 0;
     }
 
-    body {
-        background: linear-gradient(90deg, var(--clr-primary-Red), var(--clr-primary-Red)), url(/images/bg-intro-desktop.png);
+    .left-align { 
+        text-align: left;
     }
+
+
 }
